@@ -45,12 +45,6 @@ Frontend: Interfaz web en http://localhost:8080.
 
 ### 3. Acceder a la API
 
-La API expone los siguientes endpoints principales:
-GET /categories: Recuperar todas las categorías.
-POST /categories: Crear una nueva categoría.
-DELETE /categories/{id}: Eliminar una categoría por su ID.
-Puedes explorar todos los endpoints en Swagger:
-
 http://localhost:18081/swagger-ui/index.html
 
 ### 4. Acceder al Frontend
