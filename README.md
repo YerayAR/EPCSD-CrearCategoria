@@ -43,9 +43,9 @@ http://localhost:18081/swagger-ui/index.html
 
 ### 4. Acceder al Frontend
 
-La interfaz de usuario está disponible en http://localhost:8080.
+La interfaz de usuario está disponible en http://localhost:8080, desde aquí puedes:
 
-*Crear nuevas categorías.*
+*Crear nueva categoría.*
 
 En **Swagger**, puedes comprobar la categoría creada desde el frontend, por ejemplo, buscando por el ID con el que la registraste. Accede al endpoint `GET /categories/{id}` e introduce el ID para verificar que la categoría fue añadida correctamente.
 
