@@ -17,7 +17,6 @@
 
 Clona el repositorio desde GitHub y accede a su directorio:
 
-
 git clone https://github.com/YerayAR/EPCSD-CrearCategoria.git
 
 cd EPCSD-CrearCategoria
@@ -38,8 +37,6 @@ Swagger: Interfaz para probar la API disponible en http://localhost:18081/swagge
 
 Frontend: Interfaz web en http://localhost:8080.
 
-En **Swagger**, puedes comprobar la categoría creada desde el frontend, por ejemplo, buscando por el ID con el que la registraste. Accede al endpoint `GET /categories/{id}` e introduce el ID para verificar que la categoría fue añadida correctamente.
-
 ### 3. Acceder a la API
 
 http://localhost:18081/swagger-ui/index.html
@@ -47,8 +44,12 @@ http://localhost:18081/swagger-ui/index.html
 ### 4. Acceder al Frontend
 
 La interfaz de usuario está disponible en http://localhost:8080. Desde aquí puedes:
-Ver las categorías existentes.
-Crear nuevas categorías.
+
+*Ver las categorías existentes.*
+
+*Crear nuevas categorías.*
+
+En **Swagger**, puedes comprobar la categoría creada desde el frontend, por ejemplo, buscando por el ID con el que la registraste. Accede al endpoint `GET /categories/{id}` e introduce el ID para verificar que la categoría fue añadida correctamente.
 
 ### 6. Detener los contenedores
 
@@ -60,4 +61,10 @@ Notas adicionales
 Persistencia de datos: Los datos de las categorías se almacenan en una base de datos PostgreSQL. Si detienes los contenedores, los datos se conservarán a menos que borres los volúmenes de Docker.
 Problemas comunes:
 Si tienes problemas de red, asegúrate de que los puertos no estén siendo utilizados por otro servicio.
-Si encuentras algún problema con CORS, asegúrate de que el backend esté configurado correctamente para permitir solicitudes. Solo se tendrá que añadir *import org.springframework.web.bind.annotation.CrossOrigin;*, *@CrossOrigin(origins = "http://localhost:8080")*, En el archivo CategoryRESTController.java.
+Si encuentras algún problema con CORS, asegúrate de que el backend esté configurado correctamente para permitir solicitudes. Solo se tendrá que añadir 
+
+*import org.springframework.web.bind.annotation.CrossOrigin;* 
+
+*@CrossOrigin(origins = "http://localhost:8080")*
+
+En el archivo CategoryRESTController.java.
