@@ -1,7 +1,5 @@
 # EPCSD-CrearCategoria
 
-Este proyecto permite gestionar categorías mediante una API REST y un frontend construido con Vue.js.
-
 ## Contenidos
 
 - **Backend**: Microservicio `product-catalog` con endpoints expuestos en Swagger.
