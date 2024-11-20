@@ -25,41 +25,45 @@ git clone https://github.com/YerayAR/EPCSD-CrearCategoria.git
 cd EPCSD-CrearCategoria
 
 ### 2. Construir y levantar los contenedores
+
 Para construir y levantar los contenedores, ejecuta:
+
 docker-compose up --build
+
 Si deseas evitar el uso de caché para la construcción, utiliza:
+
 docker-compose up --build --no-cache
+
 Esto levantará los siguientes contenedores:
+
 API: Disponible en http://localhost:18081.
+
 Swagger: Interfaz para probar la API disponible en http://localhost:18081/swagger-ui/index.html.
+
 Frontend: Interfaz web en http://localhost:8080.
 
 
 ### 3. Acceder a la API
+
 La API expone los siguientes endpoints principales:
 GET /categories: Recuperar todas las categorías.
 POST /categories: Crear una nueva categoría.
 DELETE /categories/{id}: Eliminar una categoría por su ID.
 Puedes explorar todos los endpoints en Swagger:
+
 http://localhost:18081/swagger-ui/index.html
 
 ### 4. Acceder al Frontend
+
 La interfaz de usuario está disponible en http://localhost:8080. Desde aquí puedes:
 Ver las categorías existentes.
 Crear nuevas categorías.
 
 ### 6. Detener los contenedores
+
 Cuando termines de trabajar, puedes detener los contenedores con:
 
 docker-compose down
-
-### Estructura del proyecto
-
-EPCSD-CrearCategoria/
-├── category-frontend/   # Código fuente del frontend en Vue.js
-├── product-catalog/     # Microservicio backend con endpoints para manejar categorías
-├── docker-compose.yml   # Configuración para levantar los servicios
-└── README.md            # Instrucciones del proyecto
 
 Notas adicionales
 Persistencia de datos: Los datos de las categorías se almacenan en una base de datos PostgreSQL. Si detienes los contenedores, los datos se conservarán a menos que borres los volúmenes de Docker.
