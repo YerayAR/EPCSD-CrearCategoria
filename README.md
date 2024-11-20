@@ -40,6 +40,7 @@ Swagger: Interfaz para probar la API disponible en http://localhost:18081/swagge
 
 Frontend: Interfaz web en http://localhost:8080.
 
+En **Swagger**, puedes comprobar la categoría creada desde el frontend, por ejemplo, buscando por el ID con el que la registraste. Accede al endpoint `GET /categories/{id}` e introduce el ID para verificar que la categoría fue añadida correctamente.
 
 ### 3. Acceder a la API
 
