@@ -45,7 +45,7 @@ http://localhost:18081/swagger-ui/index.html
 
 La interfaz de usuario está disponible en http://localhost:8080, desde aquí puedes:
 
-*Crear nueva categoría.*
+*Crear nueva categoría.*, Aunque introduscas un Id menor que 7, la nueva categoria se agregará con Id:7 ya que hay 6 categorias por defecto.
 
 En **Swagger**, puedes comprobar la categoría creada desde el frontend, por ejemplo, buscando por el ID con el que la registraste. Accede al endpoint `GET /categories/{id}` e introduce el ID para verificar que la categoría fue añadida correctamente.
 
