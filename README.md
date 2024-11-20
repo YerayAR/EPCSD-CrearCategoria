@@ -19,7 +19,7 @@ Clona el repositorio desde GitHub y accede a su directorio:
 
 `git clone https://github.com/YerayAR/EPCSD-CrearCategoria.git`
 
-cd EPCSD-CrearCategoria
+`cd EPCSD-CrearCategoria`
 
 ### 2. Construir y levantar los contenedores
 
