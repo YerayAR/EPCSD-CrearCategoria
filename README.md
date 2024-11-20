@@ -17,7 +17,7 @@
 
 Clona el repositorio desde GitHub y accede a su directorio:
 
-´git clone https://github.com/YerayAR/EPCSD-CrearCategoria.git´
+`git clone https://github.com/YerayAR/EPCSD-CrearCategoria.git`
 
 cd EPCSD-CrearCategoria
 
