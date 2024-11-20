@@ -29,7 +29,7 @@ Para construir y levantar los contenedores, ejecuta:
 
 Si deseas evitar el uso de caché para la construcción, utiliza:
 
-docker-compose up --build --no-cache
+`docker-compose up --build --no-cache`
 
 Esto levantará los siguientes contenedores:
 
@@ -55,7 +55,7 @@ En **Swagger**, puedes comprobar la categoría creada desde el frontend, por eje
 
 Cuando termines de trabajar, puedes detener los contenedores con:
 
-docker-compose down
+`docker-compose down`
 
 Notas adicionales
 Persistencia de datos: Los datos de las categorías se almacenan en una base de datos PostgreSQL. Si detienes los contenedores, los datos se conservarán a menos que borres los volúmenes de Docker.
