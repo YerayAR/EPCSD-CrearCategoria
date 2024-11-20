@@ -63,4 +63,4 @@ Notas adicionales
 Persistencia de datos: Los datos de las categorías se almacenan en una base de datos PostgreSQL. Si detienes los contenedores, los datos se conservarán a menos que borres los volúmenes de Docker.
 Problemas comunes:
 Si tienes problemas de red, asegúrate de que los puertos no estén siendo utilizados por otro servicio.
-Si encuentras algún problema con CORS, asegúrate de que el backend esté configurado correctamente para permitir solicitudes.
+Si encuentras algún problema con CORS, asegúrate de que el backend esté configurado correctamente para permitir solicitudes. Solo se tendrá que añadir *import org.springframework.web.bind.annotation.CrossOrigin;*, *@CrossOrigin(origins = "http://localhost:8080")*, En el archivo CategoryRESTController.java.
