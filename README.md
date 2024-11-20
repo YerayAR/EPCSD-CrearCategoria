@@ -37,7 +37,7 @@ Swagger: Interfaz para probar la API disponible en http://localhost:18081/swagge
 
 Frontend: Interfaz web en http://localhost:8080.
 
-### 3. Acceder a la API
+### 3. Ejecutar el product-catalog y acceder a la API
 
 http://localhost:18081/swagger-ui/index.html
 
