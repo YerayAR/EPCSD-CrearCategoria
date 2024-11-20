@@ -43,9 +43,7 @@ http://localhost:18081/swagger-ui/index.html
 
 ### 4. Acceder al Frontend
 
-La interfaz de usuario está disponible en http://localhost:8080. Desde aquí puedes:
-
-*Ver las categorías existentes.*
+La interfaz de usuario está disponible en http://localhost:8080.
 
 *Crear nuevas categorías.*
 
