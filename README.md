@@ -36,8 +36,6 @@ docker-compose up --build --no-cache
 
 Esto levantará los siguientes contenedores:
 
-API: Disponible en http://localhost:18081.
-
 Swagger: Interfaz para probar la API disponible en http://localhost:18081/swagger-ui/index.html.
 
 Frontend: Interfaz web en http://localhost:8080.
