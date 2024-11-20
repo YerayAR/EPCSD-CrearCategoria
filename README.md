@@ -2,7 +2,7 @@
 
 ## Contenidos
 
-- **Backend**: Microservicio `product-catalog` con endpoints expuestos en Swagger.
+- **Backend**: Microservicios con endpoints expuestos en Swagger.
 - **Frontend**: Aplicación Vue.js para interactuar con la API.
 
 ## Requisitos
