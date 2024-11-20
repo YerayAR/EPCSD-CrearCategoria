@@ -25,7 +25,7 @@ cd EPCSD-CrearCategoria
 
 Para construir y levantar los contenedores, ejecuta:
 
-docker-compose up --build
+`docker-compose up --build`
 
 Si deseas evitar el uso de caché para la construcción, utiliza:
 
