@@ -67,4 +67,4 @@ Si encuentras algún problema con CORS, asegúrate de que el backend esté confi
 
 *@CrossOrigin(origins = "http://localhost:8080")*
 
-En el archivo CategoryRESTController.java.
+En el archivo CategoryRESTController.java. "Esto sería solo si no te descargas el product-catalog de este repositorio pues este ya está actualizado"
